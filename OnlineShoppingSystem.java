@@ -112,6 +112,7 @@ public class OnlineShoppingSystem {
                     break;
                 case 4:
                     driverAkun.checkout();
+                    akun = null;
                     break;
                 case 0:
                     userMenuRunning = false;
